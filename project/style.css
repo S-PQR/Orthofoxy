@@ -1,0 +1,59 @@
+body{
+  font-family: Ubuntu;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  text-align: center;
+}
+
+.standard{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.logo a{
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav {
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  display: flex;
+  height: 3rem;
+  justify-content: space-evenly;
+}
+
+.nav a{
+  -webkit-tap-highlight-color: transparent;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+.standard a{
+  
+}
+
+.nav a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  }
